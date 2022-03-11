@@ -132,6 +132,3 @@ environments:
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 
-server:
-    servlet:
-        context-path: /helloworld

@@ -1,13 +1,14 @@
 package helloworld
         
+      
+
+class Team {
         String name
         String city
         String stadium
         String logo
         String manager
         static hasMany = [players: Player]
-
-class Team {
 
     static constraints = {
         
@@ -20,5 +21,5 @@ class Team {
 
     String toString() {
     name
-}
+    }
 }
